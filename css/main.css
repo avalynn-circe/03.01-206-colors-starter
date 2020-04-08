@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+/* MOBILE-FIRST */
+
 
 html, body {
   margin: 0px;
@@ -34,15 +36,15 @@ header {
 }
 
 #column-1 {
-  background: #d5d5d5;
+  background: #f06d06;
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #df823b;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #886347;
 }
 
 
@@ -61,6 +63,10 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: ;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   #column-1 {
@@ -86,6 +92,10 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: ;
+  }
+
+  .col-3 {
+    width: 33.33%;
   }
 
   #column-1 {
